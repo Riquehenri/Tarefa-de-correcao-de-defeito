@@ -22,6 +22,7 @@ def validar(itens, estoque, desconto_percentual):
             raise ValueError('Preço inválido')
         if not inteiro(quantidade) or quantidade <= 0:
             raise ValueError('Quantidade inválida')
+    
 
 
 def conferir_estoque(itens, estoque):
